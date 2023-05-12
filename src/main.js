@@ -2,6 +2,7 @@ import {
 	createSSRApp
 } from "vue";
 import store from '@/store'
+import '@/api'
 
 import App from "./App.vue";
 export function createApp() {

@@ -14,7 +14,14 @@ export default {
       title: 'Hello',
     }
   },
-  onLoad() {},
+  onLoad() {
+    uni.$api.request1().then(res => {
+      console.log(res)
+    }).catch(err => {
+      console.log(err)
+    })
+
+  },
   methods: {},
 }
 </script>
