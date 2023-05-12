@@ -13,5 +13,14 @@ export default {
 </script>
 
 <style>
-/*每个页面公共css */
+uni-page-body,
+html,
+body,
+page {
+  height: 100%;
+}
+
+.page {
+  height: 100%;
+}
 </style>
